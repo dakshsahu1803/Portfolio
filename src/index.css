@@ -1,0 +1,50 @@
+/* 1. Replaced "Poppins" with the "Inter" font for a cleaner, more modern look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Set the new font globally and added some base styling for a better look */
+* {
+    font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #050414; /* Matches your main background color for consistency */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. Added a custom, themed scrollbar for a professional touch */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #8245ec;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+
+/* The clip-path utilities remain the same */
+@layer utilities {
+    .clip-path-custom {
+      clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
+    }
+    .clip-path-custom-2 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+      }
+    .clip-path-custom-3 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+      }
+  }
