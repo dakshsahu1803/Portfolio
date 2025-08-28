@@ -6,7 +6,7 @@ import pythonLogo from './assets/tech_logo/python.png';
 import javaLogo from './assets/tech_logo/java.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
-import tensorflowLogo from './assets/tech_logo/Tensorflow_logo.webp';
+import tensorflowLogo from './assets/tech_logo/TensorFlow_logo.webp';
 import pytorchLogo from './assets/tech_logo/pytorch.webp';
 import scikitLearnLogo from './assets/tech_logo/scikit-learn.webp';
 import opencvLogo from './assets/tech_logo/opencvlogo.webp';
