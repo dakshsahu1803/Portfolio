@@ -10,7 +10,6 @@
 </p>
 
 <hr>
-
 <h2>📌 About The Project</h2>
 <p>
 This project is a personal portfolio designed to showcase my skills, experience, and projects as a <b>Full-Stack and Machine Learning Engineer</b>. 
@@ -49,7 +48,7 @@ The portfolio is built with a focus on <b>clean code, reusability,</b> and a <b>
 
 <hr>
 
-<h2>🚀 Getting Started</h2>
+<h2>🚀 Getting Started with Portfolio </h2>
 
 <h3>Prerequisites</h3>
 <p>Ensure you have <b>Node.js</b> and <b>npm</b> installed.</p>
@@ -76,7 +75,6 @@ The application will be available at http://localhost:5173.
 
 Contact
 Daksh Sahu - @dakshsahu843@gmail.com
-
 LinkedIn: https://www.linkedin.com/in/daksh-sahu-65828324b/
 
 Project Link: https://github.com/dakshsahu1803/Portfolio
